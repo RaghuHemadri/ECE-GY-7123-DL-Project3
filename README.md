@@ -36,7 +36,7 @@ This project implements and analyzes adversarial attacks on a pretrained **ResNe
 * Visualized perturbed vs. original images
 * Measured drop in top-1 and top-5 accuracies
 
-### 🔹 Task 3: PGD Attack (ε = 0.02, α = 0.005, 40 steps)
+### 🔹 Task 3: PGD Attack (ε = 0.02, α = 0.005, 140 steps)
 
 * Multiple-step gradient attack (PGD) for stronger perturbations
 * Generated **Adversarial Test Set 2**
