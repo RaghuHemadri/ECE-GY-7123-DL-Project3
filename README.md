@@ -84,11 +84,25 @@ This project implements and analyzes adversarial attacks on a pretrained **ResNe
 
 ---
 
-## 📓 Notebook File
+## 🖼️ Example Visualizations
 
-All code, results, visualizations, and accuracy reports are in:
+These panels illustrate how each attack fools the classifier.
 
-* [`DL_project_3.ipynb`](DL_project_3.ipynb)
+**FGSM (ε = 0.02)**
+![](figs/adversarial_example_2.png)
+
+**PGD (ε = 0.02)**
+![](figs/adversarial_example_3.png)
+
+**Patch‑PGD (ε = 0.5)**
+![](figs/adversarial_example_4.png)
+
+## 📓 Notebook Files
+
+| Notebook                                         | Purpose                                                                          |
+| ------------------------------------------------ | -------------------------------------------------------------------------------- |
+| [`DL_project_3.ipynb`](DL_project_3.ipynb)       | End‑to‑end pipeline: data loading, attack generation, evaluation, visualizations |
+| [`Patch_ablations.ipynb`](Patch_ablations.ipynb) | **Ablation study** on patch size, ε, and step count variants for Patch‑PGD       |
 
 ---
 
