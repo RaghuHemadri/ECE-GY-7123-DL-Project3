@@ -97,13 +97,19 @@ These panels illustrate how each attack fools the classifier.
 **Patch‑PGD (ε = 0.5)**
 ![](figs/adversarial_example_4.png)
 
+---
+
 ### Ablation Studies
 
 Ablation studies showed that increasing FGSM’s $\epsilon$ initially causes sharp accuracy drops, but plateaus after 0.01. PGD maintains 0% Top-1 accuracy regardless of step count, while Top-5 degrades gradually with more iterations.
 
-- ![FGSM Ablation](./images/fgsm_epsilon_ablation.png)  
-- ![PGD Steps Ablation](images/pgd_steps_ablation.png)
+- ![FGSM Ablation](figs/fgsm_epsilon_ablation.png)  
+- ![PGD Steps Ablation](figs/pgd_steps_ablation.png)
 
+| PGD Steps | Step Size | Restarts | Top-1 Accuracy | Top-5 Accuracy | Target Class |
+|-----------|-----------|----------|----------------|----------------|---------------|
+| 150       | 0.015     | 8        | 2.80%          | 84.60%         | Untargeted    |
+| 100       | 0.01      | -        | 11.20%         | 60.40%         | 5             |
 | 100       | 0.05      | 8        | 1.00%          | 44.20%         | 10            |
 | 150       | 0.004     | 10       | 0.20%          | 37.20%         | 12            |
 
