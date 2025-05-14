@@ -85,7 +85,7 @@ This project implements and analyzes adversarial attacks on a pretrained **ResNe
 ---
 
 ## 🖼️ Example Visualizations
-
+Due to space constraints in the report, we place the prediction bar‑plots here. More visualisations are inside the [`DL_project_3.ipynb`](DL_project_3.ipynb)  notebook.
 These panels illustrate how each attack fools the classifier.
 
 **FGSM (ε = 0.02)**
